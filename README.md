@@ -14,7 +14,12 @@ Este es un backend simple para gestionar tareas, construido con **FastAPI**, **S
   - `python-dotenv`
   - `uvicorn`
   
+# Ejecucion del servidor 
+Puedes ejecutar el servidor localmente utilizando uvicorn. En e directorio raíz del proyecto, ejecuta el siguiente comando:
+uvicorn main:app --reload
+
 Puedes instalar las dependencias ejecutando:
 
 ```bash
 pip install -r requirements.txt
+
